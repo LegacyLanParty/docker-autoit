@@ -6,3 +6,5 @@ RUN 7z x -o/tmp/autoit /autoit-v3.zip
 # Winebottle
 FROM legacylanparty/winecli:latest
 COPY --from=downloader /tmp/autoit/* /app/
+
+VOLUME ["/app", "/code"]
