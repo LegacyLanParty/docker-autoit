@@ -12,4 +12,4 @@ To turn `file.au3` into a PE32 `file.exe`:
 docker run --rm -v $PWD:/code legacylanparty/autoit:latest Aut2Exe/aut2exe.exe /in "/code/file.au3"
 ```
 
-For more options, refer to [the documentation](https://www.autoitscript.com/autoit3/docs/intro/compiler.htm).
+For more options, refer to [the AutoIt Compiler documentation](http://www.autoitscript.com/autoit3/docs/intro/compiler.htm).
